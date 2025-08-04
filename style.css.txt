@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+#gamepad {
+  position: relative;
+  width: 800px; /* ajuste conforme seu layout */
+  height: auto;
+}
+
+#base {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Estilo genérico dos botões */
+.button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.5); /* cor para teste */
+  border-radius: 50%;
+  display: none;
+}
+
+/* Botões frontais (X, Círculo, Quadrado, Triângulo) */
+#btn-x        { top: 295px; left: 620px; }
+#btn-circle   { top: 255px; left: 660px; }
+#btn-square   { top: 255px; left: 580px; }
+#btn-triangle { top: 215px; left: 620px; }
+
+/* Shoulder buttons */
+#btn-l1 { top: 60px; left: 130px; }
+#btn-r1 { top: 60px; left: 610px; }
+#btn-l2 { top: 10px; left: 120px; }
+#btn-r2 { top: 10px; left: 600px; }
+
+/* Share/Options */
+#btn-share   { top: 160px; left: 250px; }
+#btn-options { top: 160px; left: 540px; }
+
+/* Sticks pressionados */
+#btn-l3 { top: 295px; left: 180px; }
+#btn-r3 { top: 295px; left: 420px; }
+
+/* D-Pad */
+#btn-up    { top: 200px; left: 135px; }
+#btn-down  { top: 290px; left: 135px; }
+#btn-left  { top: 245px; left: 100px; }
+#btn-right { top: 245px; left: 170px; }
